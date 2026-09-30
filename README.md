@@ -17,4 +17,4 @@ Column 10: Reported number of carpels. If absent, marked 0.
 Column 11: Reported sex of flower: Still collecting data, marked NA
 Column 12: Reported sexual system: Still collecting data, marked NA
 Column 13: mature petaloid organ: Reported organs with petaloid features (color, conical cells, nectaries, pollination attraction, etc.). If petaloid organs absent, marked absent. 
-Column 13: Reference: literature cited for reports. 
+Column 14: Reference: literature cited for reports. 
