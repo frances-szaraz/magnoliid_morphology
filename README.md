@@ -6,7 +6,6 @@ Columns 11 and 12 are marked with NAs, data still being collected.
 ## Live database access:
 https://raw.githubusercontent.com/frances-szaraz/magnoliid_morphology/refs/heads/main/Magnoliids_morphology.csv
 
-
 ## Current spreadsheet columns: 
 Column 1: Species (Genus, species) \
 Column 2: Order \
