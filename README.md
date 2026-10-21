@@ -3,21 +3,43 @@ Database of floral morphology for species in the Magnoliid clade for the BIO590S
 
 Columns 11 and 12 are marked with NAs, data still being collected. 
 
-## Live database access:
-https://raw.githubusercontent.com/frances-szaraz/magnoliid_morphology/refs/heads/main/Magnoliids_morphology.csv
+## Live database access for Piperales portion of Magnoliid Database
 
-## Current spreadsheet columns: 
-Column 1: Species (Genus, species) \
-Column 2: Order \
-Column 3: Family \
-Column 4: Perianth presence or absence. Presence of tepals, sepals, petals, or combination of organs is marked as present. \
-Column 5: Reported number of sepals. If absent, marked 0. \
-Column 6: Reported number of petals. If absent, marked 0. \
-Column 7: Reported number of vestigial petals, defined as petals reported present in early stages of floral development, but aborted before maturity. If absent, marked 0. \
-Column 8: Reported number of mature petals, defined as petals reported at maturity. If absent, marked 0. \
-Column 9: Reported number of stamens. If absent, marked 0. \
-Column 10: Reported number of carpels. If absent, marked 0. \
-Column 11: Reported sex of flower: Still collecting data, marked NA. \
-Column 12: Reported sexual system: Still collecting data, marked NA. \
-Column 13: mature petaloid organ: Reported organs with petaloid features (color, conical cells, nectaries, pollination attraction, etc.). If petaloid organs absent, marked absent. \
-Column 14: Reference: Literature cited for reports. 
+https://raw.githubusercontent.com/frances-szaraz/magnoliid_morphology/refs/heads/main/magnoliid_morphology_piperales.csv
+
+## Variable metadata: 
+
+Variable	
+	
+organ: perianth organ \
+species:	species reported by study \
+genus:	genus reported by study \
+order:	order reported by study \
+perianth:	presence or absence of perianth \
+petaloid_organ:	organ with petaloid traits if reported (ex. sepal, tepal, petal) \
+dev_period_metric:	how developmental period is measured  (ex. stages, days) \
+dev_period:	beginning and end of developmental study (ex. sepal primordia initiation to anthesis) \
+dev_period_total:	total number of developmental intervals reported \
+petaloidy_color:	color of petaloid tissue if present (ex. red, NA, purple) \
+petaloidy_color_emerge:	reported stage of emergence \
+petaloidy_cells:	petaloidy cell type if present (ex. elongate, trichomes, NA) \
+petaloidy_cells_emerge:	reported stage of emergence \
+petaloidy_vols:	volatile compounds if present (ex. present, NA) \
+petaloidy_vols_emerge:	reported stage of emergence \
+petaloidy_nectar:	presence of nectarioles/nectaries/nectar producing glands if present (ex. present, NA) \
+petaloidy_nectar_emerge:	reported stage of emergence \
+no_sepals:	number of sepals or tepal if undifferentiated \
+no_petals:	number of petals or tepal if undifferentiated \
+no_vest_petals:	number of petals present during development but aborted prior to anthesis \
+no_mature_perianth_whorls:	number of perianth whorls at maturity \
+no_stamens:	number of stamens \
+no_carpels:	number of carpels \
+sex:	sex (unisexual, bisexual, etc) \
+sex_system:	type of sexual system (monoecy, gynomonoecy, etc.) \
+source:	literature sited 
+
+
+
+
+
+
